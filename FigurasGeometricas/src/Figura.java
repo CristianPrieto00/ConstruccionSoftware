@@ -3,9 +3,9 @@ abstract public class Figura {
 
 
     public void imprimir(){
-        System.out.println("EL COLOR DE TU FIGURA ES: " + color);
-        System.out.println("EL AREA DE TU FIGURA ES: " + calcularArea());
-        System.out.println("EL PERIMETRO DE TU FIGURA ES: " + calcularPerimetro());
+        System.out.println("\n EL COLOR DE TU FIGURA ES: \n" + color);
+        System.out.println("\n EL AREA DE TU FIGURA ES: \n" + calcularArea());
+        System.out.println("\n EL PERIMETRO DE TU FIGURA ES: \n" + calcularPerimetro());
     } 
 
 

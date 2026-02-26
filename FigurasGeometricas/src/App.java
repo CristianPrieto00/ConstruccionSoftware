@@ -91,12 +91,12 @@ public class App {
 
     resultado.imprimir();
 
-    System.out.println("Legustaria cambiar el color de su figura?");
+    System.out.println("\n Le gustaria cambiar el color de su figura? \n");
     String respuesta = leer.next();
 
     if (respuesta.equalsIgnoreCase("si")) {
 
-        System.out.println("Ingresa el nuevo color");
+        System.out.println("\n Ingresa el nuevo color \n");
         String nuevoColor = leer.next();
 
         resultado.cambiarColor(nuevoColor);

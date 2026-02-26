@@ -68,9 +68,6 @@ public class App {
                 System.out.println("\n El precio final es: " + elec3.precioFinal());
                 break;
 
-            default:
-                System.out.println("LA OPCION INGRESADA NO ES VALIDA");
-
         }
     }
     
